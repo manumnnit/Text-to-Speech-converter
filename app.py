@@ -24,7 +24,7 @@ def clear_files():
             stat = os.stat(path)
             if stat.st_mtime < old:
                 print('removing :',path)
-                #os.remove(path)
+                os.remove(path)
 
 
 @app.route('/')
