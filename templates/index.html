@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<body  align="center" style="background-color:rgb(228, 208, 208);">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech to text</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 28px;
+      }
+    </style>
+
+
+</head>
+
+<body>
+ <div class="login">
+	<h1 style="text-align:center">Text to speech</h1>
+
+    <form align="center" action="{{ url_for('convert')}}"method="post">
+    	
+        <br>
+        <br>
+      <textarea rows="4" cols="50" name="text1"  placeholder="text1"> Enter text here...</textarea>
+
+
+      <button align="center" type="submit" class="btn btn-primary btn-block btn-large">Submit</button>
+    </form>
+
+   <br>
+       
+       
+      
+   <br>
+   
+
+ </div>
+
+
+</body>
+</html>
