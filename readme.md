@@ -13,6 +13,11 @@ How to run this Project:
  3. Click download to download your file
  4. If file opned in browser right click on that then click save
 
+
+ Deployed on AWS lightsail container services also:
+ URL- https://tts-service.rgnirigkhjlra.us-west-2.cs.amazonlightsail.com
+ Using Docker
+
  
  Requirements:
   Refer requirements.txt for details
