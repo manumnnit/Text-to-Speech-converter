@@ -16,6 +16,7 @@ How to run this Project:
 
  Deployed on AWS lightsail container services also:
  URL- https://tts-service.rgnirigkhjlra.us-west-2.cs.amazonlightsail.com
+ This URL is no longer available
  Using Docker
 
  
